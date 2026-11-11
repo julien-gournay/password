@@ -60,7 +60,7 @@
         </div>
         
         <!-- Services Section -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <!-- Générateur de mot de passe -->
             <div class="service-card bg-white rounded-lg shadow-md p-6">
                 <div class="text-center mb-4">
@@ -92,6 +92,25 @@
                 <div class="text-center">
                     <a href="password_checker.php" class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-300">
                         Vérifier un mot de passe
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Hachage de mot de passe -->
+            <div class="service-card bg-white rounded-lg shadow-md p-6">
+                <div class="text-center mb-4">
+                    <svg class="w-12 h-12 text-orange-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"></path>
+                    </svg>
+                </div>
+                <h2 class="text-xl font-semibold text-center mb-3">Hachage de mot de passe</h2>
+                <p class="text-gray-600 text-center mb-4">Hashez vos mots de passe avec différents algorithmes (BCrypt, Argon2, SHA-256).</p>
+                <div class="text-center">
+                    <a href="password_hasher.php" class="inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 focus:ring-4 focus:outline-none focus:ring-orange-300">
+                        Hasher un mot de passe
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg>
